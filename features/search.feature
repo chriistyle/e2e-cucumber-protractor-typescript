@@ -24,5 +24,4 @@ Background:
      Then the properties on the page must be ordeed from Z-A by .prop-title 
 
   Scenario: User checks if all the property images are exactly 300px
-     When the user opens the Sort by dropdown
      Then the clientWidth of the property images must be exactly 300px
