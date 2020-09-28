@@ -1,7 +1,7 @@
 Feature: Search functionality
 
 Background: 
-  Given the user is at the Agent Image page
+  Given the user is at the Agent Image Search page
 
   Scenario: User sorts the properties by "Price Descending"   
      When the user opens the Sort by dropdown

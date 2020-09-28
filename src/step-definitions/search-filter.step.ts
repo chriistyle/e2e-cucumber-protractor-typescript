@@ -4,7 +4,7 @@ import { SearchPage } from "../page/search-page.pom";
 const { expect } = require('chai');
 const { Given, When, Then} = require('cucumber');
 
-Given("the user is at the Agent Image page", {timeout: 90 * 1000}, async function(){
+Given("the user is at the Agent Image Search page", {timeout: 90 * 1000}, async function(){
     await browser.waitForAngularEnabled(false);
     await browser.get(browser.baseUrl);
     
